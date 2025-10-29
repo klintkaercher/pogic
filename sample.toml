@@ -1,0 +1,26 @@
+name = "Workspace"
+version = "0.1.0"
+next-version = "0.1.1"
+description = """
+Here's a description!
+"""
+
+[parser]
+path = "parser/path"
+version = "0.1.0"
+source = "https://github.com/klintkaercher/asfd.git"
+next-version = "1.0.0"
+extra-flags = ["--maxdepth", "1"]
+description = """
+some good description
+"""
+
+[lexer]
+path = "lexer/path"
+version = "0.1.0"
+source = "https://github.com/klintkaercher/asfd.git"
+next-version = "0.2.0"
+extra-flags = ["--maxdepth", "1"]
+description = """
+some good description
+"""

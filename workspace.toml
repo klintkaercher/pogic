@@ -1,0 +1,26 @@
+name = "Workspace"
+version = "0.1.0"
+next-version = "0.1.1"
+description = """
+Here's a description!
+"""
+
+[monkey_lang]
+source = "https://github.com/klintkaercher/monkey_lang.git"
+path = "deps/monkey_lang"
+version = "main"
+next-version = "1.0.0"
+extra-flags = ["--depth", "1"]
+description = """
+some good description
+"""
+
+[khelper]
+source = "https://github.com/klintkaercher/khelper.git"
+path = "deps/khelper"
+version = "main"
+next-version = "0.2.0"
+extra-flags = ["--depth", "1"]
+description = """
+some good description
+"""

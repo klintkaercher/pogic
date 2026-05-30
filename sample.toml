@@ -5,22 +5,33 @@ description = """
 Here's a description!
 """
 
-[parser]
-path = "parser/path"
-version = "0.1.0"
-source = "https://github.com/klintkaercher/asfd.git"
+repos = [
+    "https://github.com/klintkaercher/cpp_template.git",
+    {
+        url = "https://github.com/klintkaercher/conways_game_of_life.git",
+        version = "main",
+    }
+]
+
+[monkey_lang]
+url = "https://github.com/klintkaercher/monkey_lang.git"
+path = "deps/monkey_lang"
+version = "main"
 next-version = "1.0.0"
-extra-flags = ["--maxdepth", "1"]
+next-version-description = """
+Finalizing the interface.
+"""
+extra-flags = ["--depth", "1"]
 description = """
 some good description
 """
 
-[lexer]
-path = "lexer/path"
-version = "0.1.0"
-source = "https://github.com/klintkaercher/asfd.git"
+[khelper]
+url = "https://github.com/klintkaercher/khelper.git"
+path = "deps/khelper"
+version = "main"
 next-version = "0.2.0"
-extra-flags = ["--maxdepth", "1"]
+extra-flags = ["--depth", "1"]
 description = """
 some good description
 """

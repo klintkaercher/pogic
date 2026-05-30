@@ -1,0 +1,4 @@
+- {git: {local-name: cpp_template, uri: https://github.com/klintkaercher/cpp_template.git }}
+- {git: {local-name: conways_game_of_life,  uri: https://github.com/klintkaercher/conways_game_of_life.git, version: main}}
+- {git: {local-name: deps/monkey_lang, uri: https://github.com/klintkaercher/khelper.git, version: main}}
+- {git: {local-name: deps/khelper, uri: https://github.com/klintkaercher/khelper.git, version: main}}

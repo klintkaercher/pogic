@@ -1,0 +1,20 @@
+# my_workspace.repos
+repositories:
+  cpp_template:
+    type: git
+    url: https://github.com/klintkaercher/cpp_template.git
+
+  conways_game_of_life:
+    type: git
+    url: https://github.com/klintkaercher/conways_game_of_life.git
+    version: main
+
+  deps/monkey_lang:
+    type: git
+    url: https://github.com/klintkaercher/monkey_lang.git
+    version: main
+
+  deps/khelper:
+    type: git
+    url: https://github.com/klintkaercher/khelper.git
+    version: main
